@@ -11,4 +11,4 @@ choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
   value: TODO
-name: 'Ejercicio 14: Creo que veo doble'
+name: Creo que veo doble
