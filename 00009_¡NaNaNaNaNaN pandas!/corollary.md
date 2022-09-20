@@ -1,1 +1,1 @@
-¡Excelente! ¿Y qué sucede si queremos eliminar toooodos los `NaN`? 
+¡Excelente! ¿Y qué sucede si queremos eliminar toooodos los `nan`? 
