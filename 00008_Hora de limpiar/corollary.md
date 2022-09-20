@@ -1,0 +1,1 @@
+Con `isna` obtuvimos todos los árboles de los cuáles no sabemos su calle. Otra operación que podemos utilizar porque hace lo mismo es `isnull`. Pero la gran pregunta es ¿qué hacemos ahora que sabemos que nos faltan datos? 😰
