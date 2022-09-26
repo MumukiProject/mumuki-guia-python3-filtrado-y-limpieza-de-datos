@@ -2,13 +2,30 @@
 locale: es
 tags: []
 layout: input_bottom
-editor: 0
-type: interactive
+editor: single_choice
+type: problem
 extra_visible: false
+language: text
 teacher_info: ''
 manual_evaluation: false
-choices: []
-goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Una tabla de booleanos
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Una tabla de números
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Una tabla con las filas que cumplen la condición
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Una columna de booleanos
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Una columna de números
+  checked: false
+goal: |
+  --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_matches
   regexp: arboles\[("altura"|'altura')\]\s*>=\s*3
 name: "¿Una verdadera columna?"
