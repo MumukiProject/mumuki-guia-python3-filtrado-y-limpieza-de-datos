@@ -6,3 +6,6 @@ class Test(unittest.TestCase):
     
   def test_sauces_solo_contiene_sauces(self):
     self.assertEquals(len(sauces), 1)
+    self.assertEquals(sauces.iloc[0]["tree_id"], 13003665, "Debería haber encontrado al árbol 13003665")
+    
+    
