@@ -1,1 +1,1 @@
-TODO
+¡Hola de nuevo 👋! Ya aprendimos a consultar tablas y columnas, calcular agregaciones y agrupaciones, y a representar nuestra información en forma de gráficos. Pero lamentablemente no siempre toda la información con la que contamos es correcta y útil 😔. Por el contrario, muchas veces vamos a encontrar datos que queremos eliminar de plano de nuestro lote 🗑️. ¡Aprendamos a limpiar nuestros datos! 
