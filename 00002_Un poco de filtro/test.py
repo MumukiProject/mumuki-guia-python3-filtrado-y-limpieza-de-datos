@@ -10,4 +10,4 @@ class Test(unittest.TestCase):
     self.assertEquals(type(resultado), pd.DataFrame)
     
   def test_devuelve_solo_los_arboles_de_palermo(self):
-    self.assertEquals(len(resultado), 10)
+    self.assertEquals(len(resultado), 1)

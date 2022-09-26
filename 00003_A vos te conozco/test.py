@@ -5,4 +5,4 @@ class Test(unittest.TestCase):
     self.assertEquals(type(sauces), pd.DataFrame)
     
   def test_sauces_solo_contiene_sauces(self):
-    self.assertEquals(len(sauces), 10)
+    self.assertEquals(len(sauces), 1)
