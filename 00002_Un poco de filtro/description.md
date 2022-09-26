@@ -9,4 +9,4 @@ arboles[arboles["height"] >= 7]
 ...obtendríamos un nuevo dataset con todos los árboles que miden 7 o más metros de alto.
 
 
-> ¡Ahora te toca a vos! Escribí en una nueva celda de tu cuaderno una expresión que nos permita obtener todos los árboles del barrio de `"Palermo"`.
+> ¡Ahora te toca a vos! Escribí en una nueva celda de tu cuaderno una expresión que nos permita obtener todos los árboles del barrio de Palermo.
