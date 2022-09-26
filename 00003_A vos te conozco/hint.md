@@ -3,3 +3,4 @@ Para obtener todos los sauces deberíamos fijarnos que el `nombre` de nuestro á
 ```python
 dataset[dataset[columna].str.startswith(string_comienzo)]
 ```
+
