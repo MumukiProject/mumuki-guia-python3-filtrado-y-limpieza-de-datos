@@ -9,5 +9,8 @@ class Test(unittest.TestCase):
   def test_genera_un_dataframe(self):
     self.assertEquals(type(self.resultado), pd.DataFrame)
     
-  def test_devuelve_solo_los_arboles_de_palermo(self):
+  def test_no_devuelve_todos_los_arboles(self):
     self.assertEquals(len(self.resultado), 1)
+    
+  def test_devuelve_solo_los_arboles_de_palermo(self):
+    self.assertEquals(self.resultado.iloc[0]["neighbourhood"], "PALERMO")    
