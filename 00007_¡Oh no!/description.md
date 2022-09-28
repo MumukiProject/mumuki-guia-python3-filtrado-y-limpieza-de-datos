@@ -1,8 +1,6 @@
-La última operación lógica que veremos para utilizar en nuestras columnas de booleanos es la famosísima negación.
+La última operación lógica que veremos para utilizar en nuestras columnas de booleanos es la famosísima negación :person_gesturing_no:. 
 
-Dado que `not` trabaja con booleanos negando su valor de verdad, la forma de operar en un `Series` de booleanos es con el operador `~`. 
-
-Por ejemplo, si quisiéramos saber todas las personas cuyo apellido *no* termine con z podríamos obtenerlas así:
+Dado que `not` trabaja con booleanos negando su valor de verdad, la forma de operar en un `Series` de booleanos es con el operador `~`. Por ejemplo, si quisiéramos saber todas las personas cuyo apellido *no* termine con z podríamos obtenerlas así:
 
 ```python
 personas[~personas["apellido"].str.endswith("z")]
