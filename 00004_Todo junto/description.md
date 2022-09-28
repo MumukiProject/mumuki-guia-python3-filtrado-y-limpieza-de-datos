@@ -17,7 +17,7 @@ sauces_de_palermo =  sauces[sauces["neighbourhood"] == "PALERMO"]
 Peeeero, si lo que realmente nos interesa son solamente los sauces de Palermo podemos filtrar las dos condiciones al mismo tiempo utilizando la conjunción lógica ✌️:
 
 ```python
-arboles[(arboles["neighbourhood"] == "PALERMO") & (arboles["comm_name"].str.startswith("Sauce"))]
+arboles[(arboles["neighbourhood"] == "PALERMO") & arboles["comm_name"].str.startswith("Sauce")]
 ```
 
 > ¡Veamos si se entendió!  Usando todo lo visto, obtené aquellos árboles que se encuentren en la comuna 10 y que sean de la familia de las Meliáceas. Asigná el resultado en la variable `meliaceas_comuna_10`
