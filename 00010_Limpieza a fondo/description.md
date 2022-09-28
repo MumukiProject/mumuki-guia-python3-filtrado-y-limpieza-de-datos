@@ -18,4 +18,4 @@ tabla.dropna(inplace=True)
 tabla.dropna(thresh=2, inplace=True)
 ```
 
-> ¡Vamos a probarlo! Eliminá del `DataFrame` `arboles` todas las filas que tengan algún valor nulo. 🧼
+> ¡Vamos a probarlo! Eliminá del `DataFrame` `arboles` todas las filas que tengan algún valor nulo. 
