@@ -15,10 +15,12 @@ Data columns (total 20 columns):
 dtypes: float64(10), object(10)
 ```
 
-... pero definitivamente fue mucho más directo (y más fácil de operar su resultado, como veremos a continuación) usar `notna` :sunglasses::
+... pero definitivamente fue mucho más directo usar `notna` :sunglasses::
 
 
 ```python
 ム len(arboles[arboles["num1"].notna()])
 372635
 ```
+
+¿Y qué sucede si queremos eliminar toooodos los `nan`? 
