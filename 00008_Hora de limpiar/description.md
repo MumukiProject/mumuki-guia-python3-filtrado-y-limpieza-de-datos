@@ -1,5 +1,5 @@
-Cuando hablamos de limpiar nuestro dataset claro que no vamos a pasarle la escoba para sacarle el polvo 🧹. Limpieza de datos se refiere por ejemplo a verificar si faltan datos o si a alguna de las columnas debe hacerseles una corrección de notación o de tipo de dato, etc.
+Cuando hablamos de limpiar nuestra tabla claro que no vamos a pasarle la escoba para sacarle el polvo 🧹. Limpieza de datos se refiere a corregir y eliminar los datos faltantes, incorrectos o problemáticos.
 
-Una forma de obtener esta información es con el ya conocido `info` que, entre otras cosas, nos permite saber qué datos están faltantes o, dicho de otra forma, son nulos. Pero vamos a conocer otra manera de hacerlo con `isna`. 
+¡Pero antes tenemos que identificarlos! Por ejemplo, si queremos descubrir datos ausentes, podemos recurrir al conocido `info` y su _Non-Null Count_. Pero vamos a conocer otra manera de hacerlo con `isna`. 
 
 > Probá en tu cuaderno hacer `arboles[arboles["street"].isna()]` y verificá si hay árboles sin información de calle. ¿Cuántos son?
