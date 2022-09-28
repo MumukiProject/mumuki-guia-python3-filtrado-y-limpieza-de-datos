@@ -13,4 +13,4 @@ class Test(unittest.TestCase):
     self.assertEquals(len(self.resultado), 1)
     
   def test_devuelve_solo_los_arboles_de_palermo(self):
-    self.assertEquals(self.resultado.iloc[0]["neighbourhood"], "PALERMO")    
+    self.assertEquals(list(self.resultado["neighbourhood"].unique()), ["PALERMO"])    
