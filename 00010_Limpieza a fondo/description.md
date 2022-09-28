@@ -1,20 +1,21 @@
-Otra de las soluciones posibles para el tratamiento de los datos faltantes es la eliminación de casos completos, es decir eliminar toda las filas que contienen un dato faltante 🗑️. Esto lo podemos hacer utilizando `dropna` de la siguiente forma:
+Otra de las soluciones posibles para el tratamiento de los datos faltantes es eliminar toda las filas que contengan algún dato faltante 🗑️. Esto lo podemos hacer utilizando `dropna` de la siguiente forma:
 
 ```python
-dataset.dropna()
+tabla.dropna()
 ```
-Incluso podríamos eliminar aquellas filas que tengan más de un dato faltante haciendo:
+Incluso podríamos eliminar aquellas filas que tengan más de un dato faltante  haciendo:
 
 ```python
-dataset.dropna(thresh=2)
+# elimina todas las filas que tengan 2 o más columnas con nan
+tabla.dropna(thresh=2) 
 ```
 
-A diferencia de los filtrados anteriores, con `dropna` podemos eliminar estas filas en nuestro dataset original utilizando `inplace=True` como argumento así:
+A diferencia de los filtrados anteriores, con `dropna` podemos eliminar estas filas en nuestra tabla original utilizando `inplace=True` como argumento:
 
 ```python
-dataset.dropna(inplace=True)
-
-dataset.dropna(thresh=2, inplace=True)
+tabla.dropna(inplace=True)
+# o combinando ambos parámetros
+tabla.dropna(thresh=2, inplace=True)
 ```
 
-> ¡Vamos a probarlo! Eliminá del dataset `arboles` todas las filas que tengan algún valor nulo. 
+> ¡Vamos a probarlo! Eliminá del `DataFrame` `arboles` todas las filas que tengan algún valor nulo. 🧼
