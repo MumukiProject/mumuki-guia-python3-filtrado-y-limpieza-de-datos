@@ -24,10 +24,4 @@ arboles[arboles["neighbourhood"].isin(["FLORESTA", "RECOLETA", "BELGRANO", "NUÑ
 > ム arboles[(arboles["neighbourhood"] == "FLORESTA") | (arboles["neighbourhood"] == "RECOLETA") | (arboles["neighbourhood"] == "BELGRANO") | (arboles["neighbourhood"] == "NUÑEZ")]
 > ム  arboles[arboles["neighbourhood"].isin(["FLORESTA", "RECOLETA", "BELGRANO", "NUÑEZ"])]
 > ```
-> … y respondé: ¿cuántos árboles cumplen esta condición? 
-
-COROLARIO:
-
-¡Perfecto!
-
-Ya sabemos cómo aplicar la conjunción y la disyunción lógica en `pandas` y de yapa conocimos `isin`. Pero... nos falta un famoso operador, ¿o _no_?
+> ... y respondé: ¿cuántos árboles cumplen esta condición? 
