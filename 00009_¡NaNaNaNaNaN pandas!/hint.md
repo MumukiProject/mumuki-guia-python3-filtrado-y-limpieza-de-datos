@@ -4,4 +4,4 @@
 arboles[arboles["calle"].isna()]
 ```
 
-...pero esta vez obteniendo las filas que no tengan `nan` en su `calle`. 
+...pero esta vez obteniendo las filas que **no tengan** `nan` en su `calle`. 
