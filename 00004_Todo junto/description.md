@@ -20,4 +20,4 @@ Peeeero, si lo que realmente nos interesa son solamente los sauces de Palermo po
 arboles[(arboles["neighbourhood"] == "PALERMO") & arboles["comm_name"].str.startswith("Sauce")]
 ```
 
-> ¡Veamos si se entendió!  Usando todo lo visto, obtené aquellos árboles que se encuentren en la comuna 10 y que sean de la familia de las Oleáceas. Asigná el resultado en la variable `oleaceas_comuna_10`
+> ¡Veamos si se entendió!  Usando todo lo visto, escribí una **única expresión** aquellos árboles que se encuentren en la comuna 10 y que sean de la familia de las Oleáceas.
