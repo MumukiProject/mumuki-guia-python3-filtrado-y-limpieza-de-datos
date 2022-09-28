@@ -2,4 +2,4 @@ Cuando hablamos de limpiar nuestro dataset claro que no vamos a pasarle la escob
 
 Una forma de obtener esta información es con el ya conocido `info` que, entre otras cosas, nos permite saber qué datos están faltantes o, dicho de otra forma, son nulos. Pero vamos a conocer otra manera de hacerlo con `isna`. 
 
-> Probá en tu cuaderno hacer `arboles[arboles["street"].isna()]` y verificá si se eliminan árboles. ¿Cuántos quedan?
+> Probá en tu cuaderno hacer `arboles[arboles["street"].isna()]` y verificá si hay árboles sin información de calle. ¿Cuántos son?
