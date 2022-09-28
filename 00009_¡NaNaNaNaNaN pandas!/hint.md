@@ -1,1 +1,7 @@
-`notna` es la operación inversa a `isna` por lo que deberías hacer algo parecido al ejercicio anterior (`arboles[arboles["calle"].isna()]`) pero esta vez obteniendo las filas que no tengan `nan` en su `calle`. 
+`notna` es la operación inversa a `isna` por lo que deberías hacer algo parecido al ejercicio anterior...
+
+```python
+arboles[arboles["calle"].isna()]
+```
+
+...pero esta vez obteniendo las filas que no tengan `nan` en su `calle`. 

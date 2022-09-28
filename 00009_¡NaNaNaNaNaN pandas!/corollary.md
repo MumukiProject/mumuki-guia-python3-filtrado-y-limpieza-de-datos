@@ -1,1 +1,0 @@
-¡Excelente! ¿Y qué sucede si queremos eliminar toooodos los `nan`? 
