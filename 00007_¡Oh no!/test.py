@@ -10,7 +10,7 @@ class Test(unittest.TestCase):
     self.assertEquals(type(self.resultado), pd.DataFrame)
     
   def test_no_contiene_fresnos(self):
-    tree_ids = list(self.resultado.iloc["tree_id"])
+    tree_ids = list(self.resultado["tree_id"])
  
     self.assertEquals(len(self.resultado), 5)
     self.assertEquals(142527 in tree_ids, "Debería haber encontrado al árbol 142527")
