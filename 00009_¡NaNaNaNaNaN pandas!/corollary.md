@@ -1,4 +1,4 @@
-¡Bien! Nuevamente, esta información también podríamos haberla obtenido con `info()`...
+¡Bien! :sparkles: Nuevamente, esta información también podríamos haberla obtenido con `info()`...
 
 ```python
 ム arboles.info()
@@ -15,7 +15,7 @@ Data columns (total 20 columns):
 dtypes: float64(10), object(10)
 ```
 
-... pero definitivamente fue mucho más directo (y más fácil de operar su resultado, como veremos a continuación) si usamos `notna`:
+... pero definitivamente fue mucho más directo (y más fácil de operar su resultado, como veremos a continuación) usar `notna` :sunglasses::
 
 
 ```python
