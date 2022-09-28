@@ -10,6 +10,9 @@ class Test(unittest.TestCase):
     self.assertEquals(type(self.resultado), pd.DataFrame)
     
   def test_sauces_solo_contiene_sauces(self):
-    self.assertEquals(len(self.resultado), 1)
-    self.assertEquals(self.resultado.iloc[0]["tree_id"], 13003665, "Debería haber encontrado al árbol 13003665")
+    self.assertEquals(len(self.resultado), 3)
+    
+    self.assertTrue(142527 in self.resultado["tree_id"], "Debería haber encontrado al árbol 142527")
+    self.assertTrue(182465 in self.resultado["tree_id"], "Debería haber encontrado al árbol 182465")
+    self.assertTrue(13003665 in self.resultado["tree_id"], "Debería haber encontrado al árbol 13003665")
     
