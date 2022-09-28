@@ -1,4 +1,4 @@
-Copyright Gustavo Trucco and contributors
+Copyright Gustavo Trucco, Franco Bulgarelli and contributors
 
 This content consists of voluntary contributions made by many
 individuals. For exact contribution history, see its revision history
