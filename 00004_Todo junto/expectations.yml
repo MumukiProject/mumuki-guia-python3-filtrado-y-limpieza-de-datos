@@ -3,3 +3,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Assigns:oleaceas_comuna_10
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Uses:&
