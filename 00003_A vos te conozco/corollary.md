@@ -1,4 +1,7 @@
-Nuevamente te recordamos que este filtrado no altera el dataset original y que aunque estamos guardando el resultado en una variable `sauces`, la tabla original `arboles` no se ve modificada. 
+¡Impecable! ✨
+
+Nuevamente te recordamos que este filtrado no altera el `DataFrame` original y que aunque estamos guardando el resultado en una variable `sauces`, la tabla original `arboles` no se ve modificada.
+
 
 ```python
 ム len(arboles)
