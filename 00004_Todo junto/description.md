@@ -4,7 +4,6 @@ Si necesitamos los árboles de Palermo en general, y además los sauces en parti
 
 ```python
 arboles_de_palermo =  arboles[arboles["neighbourhood"] == "Palermo"]
-
 sauces_de_palermo = arboles_de_palermo[arboles_de_palermo["comm_name"].str.startswith('Sauce')]
 ```
 
@@ -12,7 +11,6 @@ De esta forma, contaremos con dos `DataFrame`s, que podemos usar según los nece
 
 ```python
 sauces =  arboles[arboles["comm_name"].str.startswith('Sauce')]
-
 sauces_de_palermo =  sauces[sauces["neighbourhood"] == "Palermo"]
 ```
 
