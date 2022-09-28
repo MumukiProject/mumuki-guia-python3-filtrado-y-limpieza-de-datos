@@ -14,5 +14,4 @@ personas[personas["nombre"].str.endswith("a")]
 
 Podrás notar que ahora solo le pasamos el segundo argumento a `str.endswith`. 
 
-
-> ¡Practiquemos con otra operación! Escribí una expresión que te permita obtener todos los sauces de nuestro dataset de árboles, y asigná su resultado en `sauces`.
+> ¡Practiquemos con otra operación! Escribí una expresión que te permita obtener todos los sauces de nuestro `DataFrame` de árboles, y asigná su resultado en `sauces`.
