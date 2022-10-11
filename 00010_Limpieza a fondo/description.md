@@ -18,4 +18,6 @@ tabla.dropna(inplace=True)
 tabla.dropna(thresh=2, inplace=True)
 ```
 
+👀 ¡Ojo! Esta operación modifica la tabla y si borramos cosas que no debíamos, ¡las perdemos para siempre! Tené especial cuidado antes de ejecutarla 🥺. 
+
 > ¡Vamos a probarlo! Eliminá del `DataFrame` `arboles` todas las filas que tengan algún valor nulo. 
