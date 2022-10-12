@@ -1,1 +1,1 @@
-Ya aprendimos diversas formas de eliminar nuestros valores nulos, acompañanos al siguiente ejercicio para conocer una alternativa menos "destructiva". 
+Ya aprendimos varias formas de eliminar nuestros valores nulos. Pero, ¿quitar los nulos es siempre la única opción? ¿No podríamos "rellenarlos"? 🖍️
