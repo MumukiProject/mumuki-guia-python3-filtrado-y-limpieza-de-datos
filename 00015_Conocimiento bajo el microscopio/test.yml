@@ -1,13 +1,13 @@
 - name: 'Cantidad de valores nulos tenemos en la columna "servicios"'
   keys:
     services:
-      equal: 1
+      equal: 255
 - name: 'Tamaño del dataset al eliminar todos los nans'
   keys:
     dropna:
-      equal: 1
+      equal: 178
 - name: 'Cantidad de microscopios, bioterios y láseres'
   keys:
     total:
-      equal: 1
+      equal: 242
                         
