@@ -26,6 +26,6 @@ Observemos por ejemplo la altura de nuestros árboles 🌲...
 <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-python3-filtrado-y-limpieza-de-datos/master/assets/boxplot_2_1665547665355.png" alt="boxplot_2_1665547665355.png" width="auto" height="auto">
 
 
-Cuando estamos ante esta situación, usualmente también optaremos por quitar a estos escasos valores poco representativos del conjunto de datos, 
+Cuando estamos ante esta situación, usualmente también optaremos por quitar a estos escasos valores poco representativos del conjunto de datos.
 
 > Parece que tenemos que pasar la tijera por acá ✂️. Remové a los árboles que estén dentro del 98% más bajo **y de menor diámetro**.
