@@ -10,7 +10,7 @@ class Test(unittest.TestCase):
     self.assertEquals(type(self.resultado), pd.DataFrame)
     
   def test_contiene_menos_arboles(self):
-    self.assertTrue(len(self.resultado) == 5)
+    self.assertTrue(len(self.resultado) == 6)
     
   def test_no_contiene_arboles_sin_latitud(self):
     indexado = self.resultado.set_index("tree_id")
