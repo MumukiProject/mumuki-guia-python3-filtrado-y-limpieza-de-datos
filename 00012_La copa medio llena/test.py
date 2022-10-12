@@ -7,4 +7,4 @@ class Test(unittest.TestCase):
     self.assertTrue(arboles["inclination"].count() == 10)  
     
   def test_la_inclinacion_se_llena_con_el_promedio(self):
-    self.assertEquals(arboles["inclination"].mean(), 10)      
+    self.assertTrue(arboles["inclination"].mean() == 2.142857142857143)      
