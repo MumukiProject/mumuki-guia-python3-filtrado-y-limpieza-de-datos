@@ -28,3 +28,9 @@
       contain: 
         expected: "inclination"
         error: 'No pasó una de las pruebas misteriosas'
+- name: 'Prueba misteriosa'
+  keys:
+    subset:
+      match: 
+        expected: '^((?!tree_id).)*$'
+        error: 'No pasó una de las pruebas misteriosas'        
