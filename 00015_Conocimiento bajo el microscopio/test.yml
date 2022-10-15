@@ -14,7 +14,7 @@
   keys:
     hfloor:
       equal: 
-        expected: "prov_name,equipment_id\nBUENOS AIRES,22\nCABA,12\nCÓRDOBA,8\nRÍO NEGRO,5\nSANTA FE,5\nTUCUMÁN,4\nMENDOZA,3\nENTRE RÍOS,2\nSALTA,2\nCHUBUT,1\nCORRIENTES,1\nNEUQUÉN,1\nSAN JUAN,1\nSAN LUIS,1\n"
+        expected: "prov_name,equipment_id\nBUENOS AIRES,22\nCABA,12\nCÓRDOBA,8\nRÍO NEGRO,5\nSANTA FE,5\nTUCUMÁN,4\nMENDOZA,3\nENTRE RÍOS,2\nSALTA,2\nCHUBUT,1\nCORRIENTES,1\nNEUQUÉN,1\nSAN JUAN,1\nSAN LUIS,1"
         multiline: true
         lenient_blank: true
         ignore_whitespace: true
