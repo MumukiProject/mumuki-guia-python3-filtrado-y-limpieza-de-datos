@@ -1,0 +1,20 @@
+- name: 'Prueba misteriosa'
+  keys:
+    subset:
+      contain: "lat"
+- name: 'Prueba misteriosa'
+  keys:
+    subset:
+      contain: "long"
+- name: 'Prueba misteriosa'
+  keys:
+    subset:
+      contain: "height"
+- name: 'Prueba misteriosa'
+  keys:
+    subset:
+      contain: "diameter"
+- name: 'Prueba misteriosa'
+  keys:
+    subset:
+      contain: "inclination"      

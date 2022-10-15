@@ -11,4 +11,8 @@ En caso de no querer eliminarlas sino sólo obtener un nuevo `DataFrame` sin dup
 tabla.drop_duplicates(subset=["tree_id"])
 ```
 
-> ¡Pongámoslo a prueba! Remové los duplicados de nuestro dataset `arboles`.
+¡A veces no es tan obvio identificar duplicados, porque se pueden confundir fácilmente con datos correctos! 
+
+> En nuestro lote de árboles no hay dos filas idénticas, pero aún así hay entre 120 y 140 árboles **muy** sospechosos y que podrían ser considerados duplicados 🧐. Usando `drop_duplicates`, identificá un conjunto de columnas que permita eliminarlos (¡y que tenga sentido en nuestro problema!). 
+
+
