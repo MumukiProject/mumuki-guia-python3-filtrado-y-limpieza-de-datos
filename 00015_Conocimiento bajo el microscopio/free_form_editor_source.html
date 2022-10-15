@@ -8,9 +8,30 @@
     <input type="number" min="0" step="1" name="dropna" class="form-control mu-free-form-input mu-inline-input">
   </fieldset>  
   <fieldset>
-    <label for="total">¿Cuántos microscopios, bioterios y láseres hay en total?</label>
+    <label for="total">¿Cuántos microscopios hay en total?</label>
     <input type="number" min="0" step="1" name="total" class="form-control mu-free-form-input mu-inline-input">
-  </fieldset>    
+  </fieldset>
+  <fieldset>
+    <label for="hfloor">¿Cómo están distribuidos esos microscopios por provincia?</label>
+    <p>
+    Ingresarlo en un csv como el siguiente, ordenado de mayor a menor cantidad:
+<pre><samp>prov_name,equipment_id
+Salta,12
+Neuquén,7
+..etc...</samp></pre>
+    Los valores son sólo ilustrativos.
+    </p>
+    <samp>
+    <textarea name="hfloor" rows="25" class="form-control mu-free-form-input mu-inline-input">
+    </samp>
+    </textarea>
+  </fieldset>  
+  <fieldset>
+    <label for="out">Si se realiza un gráfico de caja sobre la variable anterior, ¿cuántas provincias "fuera de serie" quedan por encima del bigote superior?</label>
+    <input type="number" min="0" step="1" name="out" class="form-control mu-free-form-input mu-inline-input">
+  </fieldset>
+  
+  
 </div>
 
 
