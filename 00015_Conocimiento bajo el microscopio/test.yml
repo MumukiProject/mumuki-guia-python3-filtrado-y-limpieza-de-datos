@@ -6,11 +6,11 @@
   keys:
     dropna:
       equal: 178
-- name: 'Cantidad de microscopios'
+- name: 'Cantidad de microscopios electrónicos'
   keys:
     total:
-      equal: 242
-- name: 'Cantidad de microscopios por provincia'
+      equal: 68
+- name: 'Cantidad de microscopios electrónicos por provincia'
   keys:
     hfloor:
       equal: 
