@@ -1,25 +1,30 @@
 - name: 'Prueba misteriosa'
   keys:
     subset:
-      contain: "lat"
-    error: 'No pasó una de las pruebas misteriosas'
+      contain: 
+        expected: "lat"
+        error: 'No pasó una de las pruebas misteriosas'
 - name: 'Prueba misteriosa'
   keys:
     subset:
-      contain: "long"
-    error: 'No pasó una de las pruebas misteriosas'
+      contain: 
+        expected: "long"
+        error: 'No pasó una de las pruebas misteriosas'
 - name: 'Prueba misteriosa'
   keys:
     subset:
-      contain: "height"
-    error: 'No pasó una de las pruebas misteriosas'
+      contain: 
+        expected: "height"
+        error: 'No pasó una de las pruebas misteriosas'
 - name: 'Prueba misteriosa'
   keys:
     subset:
-      contain: "diameter"
-    error: 'No pasó una de las pruebas misteriosas'
+      contain: 
+        expected: "diameter"
+        error: 'No pasó una de las pruebas misteriosas'
 - name: 'Prueba misteriosa'
   keys:
     subset:
-      contain: "inclination"
-    error: 'No pasó una de las pruebas misteriosas'
+      contain: 
+        expected: "inclination"
+        error: 'No pasó una de las pruebas misteriosas'
