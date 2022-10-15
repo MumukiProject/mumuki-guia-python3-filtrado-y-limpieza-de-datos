@@ -4,7 +4,7 @@ Ya estudiamos estrategias para tratar tanto datos faltantes como atípicos. Para
 dataset.drop_duplicates(inplace=True)
 ```
 
-En caso de no querer eliminarlas sino sólo obtener un nuevo `DataFrame` sin duplicados, podemos omitir `inplace=True`. Y al igual que `dropna`, podemos elegir el subconjunto de columnas que considerará al analizar duplicaciones, usando `subset`: 
+En caso de no querer eliminarlas sino sólo obtener un nuevo `DataFrame` sin duplicados, podemos omitir `inplace=True`. Y al igual que con `dropna`, podemos elegir el subconjunto de columnas que considerará al analizar duplicaciones, usando `subset`: 
 
 
 ```python
