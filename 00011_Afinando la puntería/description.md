@@ -1,4 +1,4 @@
-`dropna` también nos permite decidir sobre qué columnas queremos hacer el filtrado con el argumento opcional `subset` de la siguiente forma:
+:dart: `dropna` también nos permite decidir sobre qué columnas queremos hacer el filtrado con el argumento opcional `subset` de la siguiente forma:
 
 ```python
 tabla.dropna(subset=[columna1, columna2,...])
