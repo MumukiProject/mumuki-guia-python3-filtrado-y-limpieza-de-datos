@@ -1,1 +1,1 @@
-:warning: ¡Prestá atención a los paréntesis! Cuando usamos `&`, las condiciones con operaciones de comparación como `==`, `>`, etc. deben ir envueltas para no conflictuar con las otras demás.
+:warning: ¡Prestá atención a los paréntesis! Cuando usamos `&`, las condiciones con operaciones de comparación como `==`, `>`, etc. deben ir envueltas para no conflictuar con las demás.
