@@ -10,4 +10,4 @@ Esta expresión devuelve un nuevo `Series` con los reemplazos, aunque podríamos
 tabla["columna_con_faltantes"].fillna(tabla["columna_con_faltantes"].mean(), inplace=True)
 ```
 
-> ¡Probémoslo! Reemplazá en nuestro `DataFrame` de árboles todas las inclinaciones faltantes por el promedio de esa columna. 
+> ¡Probémoslo! Reemplazá en nuestra tabla de `arboles` todas las inclinaciones faltantes por el promedio de esa columna. 
