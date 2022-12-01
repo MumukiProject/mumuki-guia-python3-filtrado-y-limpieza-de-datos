@@ -28,4 +28,4 @@ Observemos por ejemplo la altura de nuestros árboles 🌲...
 
 Cuando estamos ante esta situación, usualmente también optaremos por quitar a estos escasos valores poco representativos del conjunto de datos.
 
-> Parece que tenemos que pasar la tijera por acá ✂️. Remové de `arboles` aquellos que estén dentro del 98% más bajo **y de menor diámetro**.
+> Parece que tenemos que pasar la tijera por acá ✂️. Quedate sólo con los `arboles` que estén dentro del 98% más bajo **y de menor diámetro**.
