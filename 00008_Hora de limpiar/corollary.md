@@ -2,7 +2,7 @@ Con `isna` (o lo que es lo mismo, con su sinónimo `isnull`) podemos  obtener to
 
 ```python
 ム arboles.info()
-<class 'pandas.core.frame.DataFrame'>
+# <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 372694 entries, 0 to 372693
 Data columns (total 20 columns):
  #   Column         Non-Null Count   Dtype  
