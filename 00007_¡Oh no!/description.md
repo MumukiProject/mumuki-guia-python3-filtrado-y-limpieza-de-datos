@@ -6,4 +6,4 @@ Dado que `not` trabaja con booleanos negando su valor de verdad, la forma de ope
 personas[~personas["apellido"].str.endswith("z")]
 ```
 
-> ¡Ahora te toca a vos! Utilizando `~` escribí una **única expresión** que obtenga todos los árboles que no sean Fresnos, es decir, que su nombre no comience con "Fresno". 
+> ¡Ahora te toca a vos! Utilizando `~` escribí una **única expresión** que obtenga todos los árboles que no sean Fresnos, es decir, que su nombre común (`comm_name`) no comience con "Fresno". 
