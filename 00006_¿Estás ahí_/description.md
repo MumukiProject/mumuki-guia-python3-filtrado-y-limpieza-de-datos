@@ -7,10 +7,15 @@ arboles[(arboles["neighbourhood"] == "FLORESTA") | (arboles["neighbourhood"] == 
 Y quizás no parece tan grave. Pero ¿qué sucede si queremos los árboles de Floresta, Recoleta, Belgrano y Nuñez? Si bien podríamos hacer esto…
 
 ```python
-arboles[(arboles["neighbourhood"] == "FLORESTA") | (arboles["neighbourhood"] == "Recoleta") | (arboles["neighbourhood"] == "BELGRANO") | (arboles["neighbourhood"] == "NUÑEZ")]
+arboles[
+  (arboles["neighbourhood"] == "FLORESTA") | 
+  (arboles["neighbourhood"] == "RECOLETA") | 
+  (arboles["neighbourhood"] == "BELGRANO") | 
+  (arboles["neighbourhood"] == "NUÑEZ")
+]
 ```
 
-… no parece lo más cómodo, ¿verdad? 🙄
+... no parece lo más cómodo, ¿verdad? 🙄
 
 Por suerte existe `isin` que nos puede ahorrar bastante tiempo ⌚. Para obtener el resultado anterior podríamos hacer simplemente:
 
