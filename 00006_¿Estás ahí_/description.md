@@ -8,10 +8,10 @@ Y quizás no parece tan grave. Pero ¿qué sucede si queremos los árboles de Fl
 
 ```python
 arboles[
-  (arboles["neighbourhood"] == "FLORESTA") | 
-  (arboles["neighbourhood"] == "RECOLETA") | 
-  (arboles["neighbourhood"] == "BELGRANO") | 
-  (arboles["neighbourhood"] == "NUÑEZ")
+  (arboles["neighbourhood"] == "FLORESTA") 
+  | (arboles["neighbourhood"] == "RECOLETA") 
+  | (arboles["neighbourhood"] == "BELGRANO") 
+  | (arboles["neighbourhood"] == "NUÑEZ")
 ]
 ```
 
