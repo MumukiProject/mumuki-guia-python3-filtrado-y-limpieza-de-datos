@@ -1,21 +1,28 @@
-- name: 'Prueba misteriosa'
+- name: '<code>lat</code> es relevante'
   keys:
     subset:
       contain: 
         expected: "lat"
-        error: 'No pasó una de las pruebas misteriosas'
-- name: 'Prueba misteriosa'
+        error: '<code>lat</code> es relevante'
+- name: '<code>long</code> es relevante'
   keys:
     subset:
       contain: 
         expected: "long"
-        error: 'No pasó una de las pruebas misteriosas'
+        error: '<code>long</code> es relevante'
 - name: 'Prueba misteriosa'
   keys:
     subset:
       contain: 
         expected: "height"
         error: 'No pasó una de las pruebas misteriosas'
+- name: '<code>site_type</code> no es relevante'
+  keys:
+    subset:
+      match: 
+        expected: '^((?!site_type).)*$'
+        error: '<code>site_type</code> no es relevante'          
+        
 - name: 'Prueba misteriosa'
   keys:
     subset:
