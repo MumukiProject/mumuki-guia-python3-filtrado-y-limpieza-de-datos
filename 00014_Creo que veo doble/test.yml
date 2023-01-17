@@ -10,19 +10,18 @@
       contain: 
         expected: "long"
         error: '<code>long</code> es relevante'
-- name: 'Prueba misteriosa'
-  keys:
-    subset:
-      contain: 
-        expected: "height"
-        error: 'No pasó una de las pruebas misteriosas'
 - name: '<code>site_type</code> no es relevante'
   keys:
     subset:
       match: 
         expected: '^((?!site_type).)*$'
         error: '<code>site_type</code> no es relevante'          
-        
+- name: 'Prueba misteriosa'
+  keys:
+    subset:
+      contain: 
+        expected: "height"
+        error: 'No pasó una de las pruebas misteriosas'
 - name: 'Prueba misteriosa'
   keys:
     subset:
