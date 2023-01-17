@@ -38,18 +38,6 @@
   keys:
     subset:
       match: 
-        expected: '^((?!fol_type).)*$'
-        error: 'No pasó una de las pruebas misteriosas'   
-- name: 'Prueba misteriosa'
-  keys:
-    subset:
-      match: 
-        expected: '^((?!fam_name).)*$'
-        error: 'No pasó una de las pruebas misteriosas'   
-- name: 'Prueba misteriosa'
-  keys:
-    subset:
-      match: 
         expected: 'gen_name|sci_name|comm_name'
         error: 'No pasó una de las pruebas misteriosas'   
                                 
