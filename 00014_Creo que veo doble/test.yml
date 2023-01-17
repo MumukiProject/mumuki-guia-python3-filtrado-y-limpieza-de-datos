@@ -15,7 +15,7 @@
     subset:
       match: 
         expected: '^((?!site_type).)*$'
-        error: '<code>site_type</code> no es relevante'          
+        error: '<code>site_type</code> no es relevante'
 - name: 'Prueba misteriosa'
   keys:
     subset:
