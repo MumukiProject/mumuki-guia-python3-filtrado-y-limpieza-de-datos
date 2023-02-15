@@ -3,21 +3,21 @@ A la hora de limpiar nuestros datos no solamente vamos a querer remover los valo
 Observemos por ejemplo la altura de nuestros árboles 🌲...
 
 ```python
-ム arboles["height"].max()
+ムarboles["height"].max()
 60.0
 ```
 
 ...y comparémoslos con su mediana:
 
 ```python
-ム arboles["height"].median()
+ムarboles["height"].median()
 8
 ```
 
 ¡Hay mucha diferencia! Esto podría ser correcto, pero por las dudas verifiquemos qué sucede si quitamos, por ejemplo, el 2% más alto utilizando `quantile`:  
 
 ```python
-ム arboles["height"].quantile(0.98)
+ムarboles["height"].quantile(0.98)
 20
 ```
 

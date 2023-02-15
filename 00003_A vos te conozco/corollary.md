@@ -3,9 +3,9 @@
 Nuevamente te recordamos que este filtrado no altera el `DataFrame` original y que aunque estamos guardando el resultado en una variable `sauces`, la tabla original `arboles` no se ve modificada.
 
 ```python
-ム len(arboles)
+ムlen(arboles)
 372694
-ム len(sauces)
+ムlen(sauces)
 2441
 ```
 

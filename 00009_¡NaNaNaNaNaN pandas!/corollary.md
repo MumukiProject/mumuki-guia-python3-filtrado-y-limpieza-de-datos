@@ -1,7 +1,7 @@
 ¡Bien! :sparkles: Nuevamente, esta información también podríamos haberla obtenido con `info()`...
 
 ```python
-ム arboles.info()
+ムarboles.info()
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 372694 entries, 0 to 372693
 Data columns (total 20 columns):
@@ -19,7 +19,7 @@ dtypes: float64(10), object(10)
 
 
 ```python
-ム len(arboles[arboles["num1"].notna()])
+ムlen(arboles[arboles["num1"].notna()])
 372635
 ```
 
